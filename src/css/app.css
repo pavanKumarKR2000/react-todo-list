@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import "./todo-input.css";
+@import "./todo-list.css"; 
+@import "./todo.css";
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family:'Overpass', sans-serif;
+}
+
+body{
+   background-color: whitesmoke;
+   background-color:rgb(62, 59, 59);
+}
+
+.btn{
+   height: 40px;
+   width: 40px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+}
+
+.todo-app-container{
+   width: max-content;
+   margin: 50px auto;
+   background-color: antiquewhite;
+}

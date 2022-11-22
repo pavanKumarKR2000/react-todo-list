@@ -1,0 +1,32 @@
+.todo-input-container{
+    margin:0 auto;
+    margin-top: 50px;
+    padding: 5px;
+    width: max-content;
+}
+
+.todo-input{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    border:none;
+    margin-right: 5px;
+}
+
+.btn-add{
+    background-color:#4ECDC4;
+}
+
+.btn-add:hover{
+    background-color: #6bd3cc;
+}
+
+.btn-add:disabled{
+    opacity: 0.2;
+}
+
+.todo-input::placeholder{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.todo{
+    min-width:350px;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-block: 5px;
+    margin-block: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+
+.btn-edit{
+    margin-right: 5px;
+    background-color:#FF7733;
+}
+
+.btn-edit:hover{
+    background-color:#fea172;
+}
+
+.btn-complete{
+    margin-right: 5px;
+    margin-left: 10px;
+    background-color:#77FF94;
+}
+
+.btn-complete:hover{
+    background-color:#b5fac4;
+}
+
+.btn-delete{
+    background-color: #FF220C;
+}
+
+.btn-delete:hover{
+    background-color: #fe6759;
+}

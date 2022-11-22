@@ -1,0 +1,9 @@
+.todo-list-container{
+    margin:10px auto;
+    width:max-content;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
